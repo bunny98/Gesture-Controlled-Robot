@@ -27,7 +27,6 @@ Hardware used in receiver section:
 4.	200 rpm DC Motors
 5.	LM7805 Voltage Regulator
     It converts 12V supply form battery into 5V, which is required by all the above components except motors.
-
 Software Used:
   The program is written in Arduino Integrated Development Environment (IDE). I used version 1.8.5. It connects to the Arduino hardware   to upload programs. But before uploading the program there is a need to select appropriate Microcontroller so, “Arduino Uno” from the   Tool menu has been chosen.  And for proper communication with computer and Arduino Uno boards there is a need to select COM port from   the Tool menu.
   
