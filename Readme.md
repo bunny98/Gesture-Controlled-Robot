@@ -32,7 +32,7 @@ Software Used:
 
 ## Flow Chart
 <p align= "center">
-<img width="200" height="400" src="flow_chart.JPG"><br>
+<img width="400" height="600" src="flow_chart.JPG"><br>
 </p>
   
   
