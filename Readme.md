@@ -33,7 +33,7 @@ Software Used:
 ## Receiver
 ### Circuit Diagram
 <p align= "center">
-<img width="600" height="600" src="receiver_circuit_dia.jpg"><br>
+<img width=800" height="600" src="receiver_circuit_dia.jpg"><br>
 </p>
 
 ### Flow Chart
@@ -44,7 +44,7 @@ Software Used:
 ## Transmitter
 ### Circuit Diagram
 <p align= "center">
-<img width="600" height="600" src="transmitter_circuit_dia.jpg"><br>
+<img width="800" height="600" src="transmitter_circuit_dia.jpg"><br>
 </p>
   
   
