@@ -41,6 +41,34 @@ Software Used:
 <img width="400" height="600" src="flow_chart.JPG"><br>
 </p>
 
+### WORKING
+Tilting our hand in one direction, results in a pair of output values of the accelerometer
+characteristic to the tilt direction, which is then recognized as forward, backward, left, right or
+horizontal position by the arduino’s program. It then sets the Input pins of the encoder to HIGH
+or LOW accordingly. Data is transmitted over radio frequency to the receiver where it is
+decoded and sent to motor driver. Different values of OUTPUT pins of the decoder resulting in
+different direction of motion of the robot, are as follows:
+
+Stop Condition
+When the accelerometer is parallel to the horizontal plane, all the output pins of decoder (13,
+12, 11, 10) are set to LOW which takes the robot in stop mode.
+Forward Movement
+When the accelerometer is tilted towards forward direction, two output pin of decoder (13, 11)
+are set to low and other two output pin of decoder (12, 10) are set to high. This condition
+commands the robot to move in forward direction.
+Backward Movement
+When the accelerometer is tilted towards backward direction, two output pin of decoder (12, 10)
+are set to low and other two output pin of decoder (13, 11) are set to high. This condition
+commands the robot to move in backward direction.
+Moves towards Right
+When the accelerometer is tilted towards right, two output pin of decoder (12, 11) are set to low
+and other two output pin of decoder (13, 10) are set to high. This condition commands the robot
+to move towards right.
+Moves towards Left
+When the accelerometer is tilted towards left, two output pin of decoder (12, 11) are set to high
+and other two output pin of decoder (13, 10) are set to low. This condition commands the robot
+to move towards left.
+
 ## Transmitter
 ### Circuit Diagram
 <p align= "center">
